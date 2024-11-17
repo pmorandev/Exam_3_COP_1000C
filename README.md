@@ -1,3 +1,8 @@
+# Authors
+- Evan McDaniel 
+- Khalid Elmounaichet
+- Pedro Moran                          
+
 # Requirenments
 1. Display a clean and neat Menu
 2. Enter scores
