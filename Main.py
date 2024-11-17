@@ -5,8 +5,8 @@
 #  that execute a series of operations on a list of grades.                    #
 # ##############################################################################
 
-from grades.sort import Sort
-from grades.function import Function
+import Function
+import Sort
 
 # Main function responsible for holding the main flow of the program
 def main():
@@ -23,6 +23,8 @@ def runProgramUntilGetExitFlag(option, grades: []):
         if(option == 7):
             break
         grades = performMenuOption(option, grades)
+        # Add a pause to the program
+        input("Press any key to continue")
 
 # Handles the user's menu choice and updates the grades list based on the selected option.
 def performMenuOption(option: int, grades: []) -> []:
